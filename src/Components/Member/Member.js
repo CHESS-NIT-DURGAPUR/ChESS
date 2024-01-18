@@ -13,7 +13,6 @@ import ANagarajan from "../assets/ANagarajan.jpeg";
 import ATalukder from "../assets/ATalukder.jpg";
 import PMistri from "../assets/PMistri.jpg";
 import APal from "../assets/APal.jpg";
-import BSana from "../assets/BSana.jpg";
 import ATiwari from "../assets/ATiwari.jpeg";
 import PDutta from "../assets/PDutta.jpg";
 import SSamanta from "../assets/SSamanta.jpg";
@@ -241,18 +240,17 @@ function Member() {
           </div>
 
           <div className="row">
-            <div className="col-sm-4">
+          <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
-                  <img src={BSana} alt="Team Img" />
+                  <img src={SSamanta} alt="Team Img" />
                 </div>
                 <div className="team-content">
-                  <h2 className="membersName">Bikram Sana</h2>
+                  <h2 className="membersName">Soumyadeep Samanta</h2>
                   <h4 className="role glitch">Executive Member</h4>
                 </div>
               </div>
             </div>
-
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
@@ -279,13 +277,13 @@ function Member() {
           </div>
 
           <div className="row">
-            <div className="col-sm-4">
+          <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
-                  <img src={SSamanta} alt="Team Img" />
+                  <img src={PGupta} alt="Team Img" />
                 </div>
                 <div className="team-content">
-                  <h2 className="membersName">Soumyadeep Samanta</h2>
+                  <h2 className="membersName">Priyanka Gupta</h2>
                   <h4 className="role glitch">Executive Member</h4>
                 </div>
               </div>
@@ -315,17 +313,7 @@ function Member() {
           </div>
 
           <div className="row" style={{alignItems: "center", justifyContent: "center"}}>
-            <div className="col-sm-4">
-              <div className="team-5 members__box">
-                <div className="team-img">
-                  <img src={PGupta} alt="Team Img" />
-                </div>
-                <div className="team-content">
-                  <h2 className="membersName">Priyanka Gupta</h2>
-                  <h4 className="role glitch">Executive Member</h4>
-                </div>
-              </div>
-            </div>
+
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">

@@ -1,18 +1,17 @@
+
 .rcr{
   color: antiquewhite;
   justify-content: center;
 }
 .gallery {
-  --g: 3px; /* the gap */
-  
+  --g: 2.5px; /* the gap */
+  margin: 14% auto 4% auto !important;
   display: grid;
-  width: 1220px; /* the size */
+  width: 80vw; /* the size */
   aspect-ratio: 1.0;
   grid: auto-flow 90fr/repeat(5,10fr);
   gap: var(--g);
   place-content: center;
-  margin-top: 16%;
-  margin-left: 18%;
 }
 .gallery img {
   width: 100%;

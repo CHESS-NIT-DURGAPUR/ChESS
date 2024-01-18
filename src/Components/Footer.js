@@ -11,17 +11,17 @@ function Footer() {
             <h5 className="h1 text-white">
               Ch<span className="text_primary">ESS</span>
             </h5>
-            <p className="small text-muted">
+            <p className="small text-white">
               CHESS is a student's society at NIT Durgapur.
             </p>
-            <p className="small text-muted mb-0">
+            <p className="small text-white mb-0">
               &copy; Copyrights {new Date().getFullYear()} | All rights
               reserved.
             </p>
           </div>
           <div className="col-lg-2 col-md-6">
             <h5 className="text-white mb-3">Contact Info</h5>
-            <ul className="list-unstyled text-muted">
+            <ul className="list-unstyled">
               <li>
                 <p className="text-white">Durgapur, West Bengal</p>
               </li>
@@ -37,7 +37,7 @@ function Footer() {
           </div>
           <div className="col-lg-2 col-md-6">
             <h5 className="text-white mb-3">Quick links</h5>
-            <ul className="list-unstyled text-muted">
+            <ul className="list-unstyled">
               <li>
                 <Link className="my-1 btn btn-primary" to="/">
                   Home
@@ -62,7 +62,7 @@ function Footer() {
           </div>
           <div className="col-lg-4 col-md-6">
             <h5 className="text-white mb-3">Newsletter</h5>
-            <p className="small text-muted">
+            <p className="small">
               Receive the latest updates and offers by signing up href. my
               newsletter
             </p>

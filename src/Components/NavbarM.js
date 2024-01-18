@@ -14,25 +14,25 @@ function navbarm(){
         </Link>
         <li className="nav-item active">
               <Link className="nav-link" to="/">
-                <i className="fa fa-home" aria-hidden="true"></i> Home{" "}
+                 Home{" "}
                 {/* <span className="sr-only">(current)</span> */}
               </Link>
             </li>
               <li className="nav-item">
               <Link className="nav-link" to="/faculty">
-                <i className="fa fa-user-plus" aria-hidden="true"></i> Faculty
+                 Faculty
               </Link>
               
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/alumni">
-                <i className="fa fa-graduation-cap" aria-hidden="true"></i>{" "}
+                
                 Alumni
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/member">
-              <i className="fa fa-users" aria-hidden="true"></i> Member
+              Member
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -89,18 +89,18 @@ function navbarm(){
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/companiesc">
-              <img className="cuilding"src={Building}></img>
+              <img className="cuilding" src={Building}></img>
                Companies
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Gallery">
-                <i className="fa fa-user-Gallery" aria-hidden="true"></i> Gallery
+                Gallery
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/blogs">
-              <i className="fa fa-blog"></i> Blogs
+              Blogs
               </Link>
             </li>
 </div>
