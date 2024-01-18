@@ -1,0 +1,32 @@
+
+.navbar {
+    background: rgba(10, 10, 10,.8);
+    color: white;
+    box-shadow: 0 0 6px rgb(120, 120, 120);
+
+}
+.logo{
+    width: 38%;
+}
+
+.custom_margin{
+    margin-left: 30%;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+}
+@media screen and (max-width:1000px) {
+    .custom_navButtom{
+        padding-bottom: 10%;
+    }
+}
+@media screen and (max-width:550px) {
+    .custom_navButtom{
+        padding-bottom: 20%;
+    }
+}
+@media screen and (max-width:394px) {
+    .custom_navButtom{
+        padding-bottom: 25%;
+    }
+}

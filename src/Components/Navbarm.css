@@ -1,0 +1,61 @@
+.navbarm {
+    background-color:transparent;
+    color: white;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px  rgb(232, 235, 234);
+    border-radius: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin: 15px;
+    position: sticky;
+    opacity: 80%;
+}
+.rcr{
+    font-size: 50px;
+    font-weight: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuilding{
+    width: 15%;
+    height: 15%;
+}
+.logom{
+    width: 58%;
+    position:bottom;
+}
+
+.custom_margin{
+    margin-left: 30%;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: red;
+}
+@media screen and (max-width:1000px)  {
+    .custom_navButtom{
+        padding-bottom: 10%;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .custom_navButtom{
+        padding-bottom: 20%;
+    }
+    
+}
+@media screen and (max-width:394px) {
+    .custom_navButtom{
+        padding-bottom: 25%;
+    }
+    
+}
+@media screen and (min-width:300px) {
+    .shapeout{
+        width: 70%;
+    }
+}

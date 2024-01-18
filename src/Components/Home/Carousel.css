@@ -1,0 +1,12 @@
+.custom_height{
+    margin-top: 6.5rem !important;
+    width: 100%;
+}
+.max_height{
+    padding-bottom: 10%;
+}
+@media screen and (max-width: 980px) {
+    .custom_height{
+        margin-top: 0 !important;
+    }
+}
